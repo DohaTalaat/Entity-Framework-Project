@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet8" targetNamespace="http://tempuri.org/DataSet8.xsd" xmlns:mstns="http://tempuri.org/DataSet8.xsd" xmlns="http://tempuri.org/DataSet8.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet8" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet8" msprop:Generator_DataSetName="DataSet8">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Category" msprop:Generator_TableClassName="CategoryDataTable" msprop:Generator_TableVarName="tableCategory" msprop:Generator_TablePropName="Category" msprop:Generator_RowDeletingName="CategoryRowDeleting" msprop:Generator_RowChangingName="CategoryRowChanging" msprop:Generator_RowEvHandlerName="CategoryRowChangeEventHandler" msprop:Generator_RowDeletedName="CategoryRowDeleted" msprop:Generator_UserTableName="Category" msprop:Generator_RowChangedName="CategoryRowChanged" msprop:Generator_RowEvArgName="CategoryRowChangeEvent" msprop:Generator_RowClassName="CategoryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="N_Ware" msprop:Generator_ColumnVarNameInTable="columnN_Ware" msprop:Generator_ColumnPropNameInRow="N_Ware" msprop:Generator_ColumnPropNameInTable="N_WareColumn" msprop:Generator_UserColumnName="N_Ware" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="c_cate" msprop:Generator_ColumnVarNameInTable="columnc_cate" msprop:Generator_ColumnPropNameInRow="c_cate" msprop:Generator_ColumnPropNameInTable="c_cateColumn" msprop:Generator_UserColumnName="c_cate" type="xs:int" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantity_of_Category" msprop:Generator_ColumnVarNameInTable="columnQuantity_of_Category" msprop:Generator_ColumnPropNameInRow="Quantity_of_Category" msprop:Generator_ColumnPropNameInTable="Quantity_of_CategoryColumn" msprop:Generator_UserColumnName="Quantity_of_Category" type="xs:int" minOccurs="0" />
+              <xs:element name="num_Sup" msprop:Generator_ColumnVarNameInTable="columnnum_Sup" msprop:Generator_ColumnPropNameInRow="num_Sup" msprop:Generator_ColumnPropNameInTable="num_SupColumn" msprop:Generator_UserColumnName="num_Sup" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="perm_num" msprop:Generator_ColumnVarNameInTable="columnperm_num" msprop:Generator_ColumnPropNameInRow="perm_num" msprop:Generator_ColumnPropNameInTable="perm_numColumn" msprop:Generator_UserColumnName="perm_num" type="xs:int" />
+              <xs:element name="perm_date" msprop:Generator_ColumnVarNameInTable="columnperm_date" msprop:Generator_ColumnPropNameInRow="perm_date" msprop:Generator_ColumnPropNameInTable="perm_dateColumn" msprop:Generator_UserColumnName="perm_date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
